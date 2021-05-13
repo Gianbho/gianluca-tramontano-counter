@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 75%;
+  height: auto;
+  margin-top: 35px;
+
+  border: 6px solid grey;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+/* counter screen styles*/
+
+h1 {
+  text-align: center;
+
+  background-color: #a2b29f;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 45px;
+
+
+  width: 70%;
+  padding: 12px 0;
+  margin: 15px 35px;
+}
+
+/* Buttons styles*/
+
+.counter-button {
+  width: 50%;
+  padding: 15px 0;
+  margin: 15px 0;
+
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px #6e7c7c;
+  cursor: pointer;
+
+  font-size: 20px;
+  background-color: #51c4d3;
+}
+
+.counter-button:active {
+  box-shadow: 0 4px #435560;
+  transform: translateY(2px);
+}
+
+.button-reset:active {
+  background-color: red;
+
+}
+
+.button-reset {
+  background-color: red;
+  color: white;
+}
+
+/* desktop */
+
+@media only screen and (min-width:550px) {
+  .page {
+    width: 450px;
+    margin: 120px auto;
+  }
+}
