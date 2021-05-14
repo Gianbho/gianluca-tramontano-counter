@@ -4,53 +4,58 @@ function newCounter() {
 let divCount = document.getElementById("counter");
 let countScreen = document.createElement("h1");
 countScreen.innerHTML = "0";
-countScreen.className = "count";
+countScreen.id = "count";
 
 divCount.appendChild(countScreen);
 }
 
-//--------------------------------------------
+//------------------     "+1 button"   --------------------------
 
 function newButtons() {
 let divCount = document.getElementById("counter");
 let btn1 = document.createElement("button");
-
-btn1.innerHTML = "+";
 btn1.type = "button";
-btn1.name = "button";
 btn1.className = "counter-button";
+
+let text1 = document.createTextNode("+");
+btn1.appendChild(text1);
+
 btn1.onclick = function() {
-  let countScreen = document.getElementsByClassName("count");
-  let number = countScreen[0].innerHTML = ++numValue;
+  let countScreen = document.getElementById("count");
+  let number = countScreen.innerHTML = ++numValue;
 };
 
 divCount.appendChild(btn1);
 
-let btn2 = document.createElement("button");
+//---------- "-1" button --------------------
 
-btn2.innerHTML = "-";
+let btn2 = document.createElement("button");
 btn2.type = "button";
-btn2.name = "button";
 btn2.className = "counter-button";
+
+let text2 = document.createTextNode("-");
+btn2.appendChild(text2);
+
 btn2.onclick = function() {
-  let countScreen = document.getElementsByClassName("count");
-  let number = countScreen[0].innerHTML = --numValue;
+  let countScreen = document.getElementById("count");
+  let number = countScreen.innerHTML = --numValue;
 };
 
 divCount.appendChild(btn2);
 
+//--------------- "reset" button ----------------------
 
 let btn3 = document.createElement("button");
-
-btn3.innerHTML = "reset";
 btn3.type = "button";
-btn3.name = "button";
 btn3.className = "counter-button button-reset";
+
+let text3 = document.createTextNode("reset");
+btn3.appendChild(text3);
+
 btn3.onclick = function() {
-  let countScreen = document.getElementsByClassName("count");
-  let number = countScreen[0].innerHTML = (numValue = 0);
+  let countScreen = document.getElementById("count");
+  let number = countScreen.innerHTML = (numValue = 0);
 };
 
 divCount.appendChild(btn3);
 }
-//---------------------------------------------
