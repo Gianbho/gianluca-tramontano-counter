@@ -40,7 +40,7 @@
 
 A simple counter app.
 
-The value shown starts from 0. <br>Pressing the " + " button increase the value on screen by 1, while pressing the " - " button decrease it by 1. <br>I've also added a third "RESET" button that sets the value to 0, to make the counter easier to use.
+The value shown starts from 0. <br>Pressing the " <strong>+</strong> " button increase the value on screen by 1, while pressing the " <strong>-</strong> " button decrease it by 1. <br>I've also added a third "<strong>RESET</strong>" button that sets the value to 0, to make the counter easier to use.
 
 ### Built With
 
