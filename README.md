@@ -1,41 +1,15 @@
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/Gianbho/gianluca-tramontano-counter">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Progetto JSBasic per Start2Impact</h3>
+  <h3 align="center">JSBasic project for Start2Impact</h3>
 
   <p align="center">
-    Ho realizzato un semplice counter che incrementa o diminuisce il valore di 1 ad ogni pressione, partendo da un valore iniziale di 0. Ho aggiunto per comodità un pulsante reset che riporta il counter a 0.
+    I've created a simple counter that increase or decrease by 1 the value shown.  
     <br />
     <a href="https://github.com/Gianbho/gianluca-tramontano-counter"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Gianbho/gianluca-tramontano-counter">View Demo</a>
+    <a href="https://github.com/Gianbho/gianluca-tramontano-counter/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/Gianbho/gianluca-tramontano-counter/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Gianbho/gianluca-tramontano-counter/issues">Request Feature</a>
+    <a href="https://github.com/Gianbho/gianluca-tramontano-counter/issues">Request a feature</a>
   </p>
 </p>
 
@@ -46,7 +20,7 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About the project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -72,18 +46,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A simple counter app.
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Gianbho`, `gianluca-tramontano-counter`, `twitter_handle`, `email`, `Progetto JSBasic per Start2Impact`, `project_description`
-
+The value shown starts from 0. Pressing the " + " button increase the value on screen by 1, while pressing the " - " button decrease it by 1. I've also added a third "RESET" button that sets the value to 0, to make the counter easier to use.
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Html]()
+* [CSS]()
+* [JScript]()
 
 
 
