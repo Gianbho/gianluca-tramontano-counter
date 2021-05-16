@@ -50,6 +50,8 @@ The value shown starts from 0. <br>Pressing the " + " button increase the value 
 
 ## Link to the Web App
 
+Try the app! Here's the link: <a href="https://silly-haibt-08e50e.netlify.app/"></a>
+
 <!-- ROADMAP -->
 ## Roadmap
 
